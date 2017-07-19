@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55D00E551F1DF63100F09DBB /* JJUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D00E541F1DF63100F09DBB /* JJUtility.m */; };
+		55D00E561F1DF63100F09DBB /* JJUtility.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 55D00E531F1DF63100F09DBB /* JJUtility.h */; };
+		55D00E751F1DFA0700F09DBB /* UIView+JJUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D00E741F1DFA0700F09DBB /* UIView+JJUtility.m */; };
+		55D00E781F1DFA7700F09DBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D00E771F1DFA7700F09DBB /* UIKit.framework */; };
+		55D00E7A1F1DFA9500F09DBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D00E791F1DFA9500F09DBB /* Foundation.framework */; };
+		55D00E891F1E15CA00F09DBB /* NSString+JJUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D00E881F1E15CA00F09DBB /* NSString+JJUtility.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		55D00E4E1F1DF63100F09DBB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				55D00E561F1DF63100F09DBB /* JJUtility.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		55D00E501F1DF63100F09DBB /* libJJUtility.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJJUtility.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D00E531F1DF63100F09DBB /* JJUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJUtility.h; sourceTree = "<group>"; };
+		55D00E541F1DF63100F09DBB /* JJUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJUtility.m; sourceTree = "<group>"; };
+		55D00E731F1DFA0700F09DBB /* UIView+JJUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JJUtility.h"; sourceTree = "<group>"; };
+		55D00E741F1DFA0700F09DBB /* UIView+JJUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JJUtility.m"; sourceTree = "<group>"; };
+		55D00E771F1DFA7700F09DBB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		55D00E791F1DFA9500F09DBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55D00E871F1E15CA00F09DBB /* NSString+JJUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JJUtility.h"; sourceTree = "<group>"; };
+		55D00E881F1E15CA00F09DBB /* NSString+JJUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JJUtility.m"; sourceTree = "<group>"; };
+		55D00E8A1F1E181100F09DBB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55D00E4D1F1DF63100F09DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D00E7A1F1DFA9500F09DBB /* Foundation.framework in Frameworks */,
+				55D00E781F1DFA7700F09DBB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55D00E471F1DF63100F09DBB = {
+			isa = PBXGroup;
+			children = (
+				55D00E521F1DF63100F09DBB /* JJUtility */,
+				55D00E511F1DF63100F09DBB /* Products */,
+				55D00E761F1DFA7700F09DBB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		55D00E511F1DF63100F09DBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55D00E501F1DF63100F09DBB /* libJJUtility.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55D00E521F1DF63100F09DBB /* JJUtility */ = {
+			isa = PBXGroup;
+			children = (
+				55D00E531F1DF63100F09DBB /* JJUtility.h */,
+				55D00E541F1DF63100F09DBB /* JJUtility.m */,
+				55D00E731F1DFA0700F09DBB /* UIView+JJUtility.h */,
+				55D00E741F1DFA0700F09DBB /* UIView+JJUtility.m */,
+				55D00E871F1E15CA00F09DBB /* NSString+JJUtility.h */,
+				55D00E881F1E15CA00F09DBB /* NSString+JJUtility.m */,
+			);
+			path = JJUtility;
+			sourceTree = "<group>";
+		};
+		55D00E761F1DFA7700F09DBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55D00E8A1F1E181100F09DBB /* Security.framework */,
+				55D00E791F1DFA9500F09DBB /* Foundation.framework */,
+				55D00E771F1DFA7700F09DBB /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55D00E4F1F1DF63100F09DBB /* JJUtility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55D00E591F1DF63100F09DBB /* Build configuration list for PBXNativeTarget "JJUtility" */;
+			buildPhases = (
+				55D00E4C1F1DF63100F09DBB /* Sources */,
+				55D00E4D1F1DF63100F09DBB /* Frameworks */,
+				55D00E4E1F1DF63100F09DBB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJUtility;
+			productName = JJUtility;
+			productReference = 55D00E501F1DF63100F09DBB /* libJJUtility.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55D00E481F1DF63100F09DBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = RobberJJ;
+				TargetAttributes = {
+					55D00E4F1F1DF63100F09DBB = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 55D00E4B1F1DF63100F09DBB /* Build configuration list for PBXProject "JJUtility" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55D00E471F1DF63100F09DBB;
+			productRefGroup = 55D00E511F1DF63100F09DBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55D00E4F1F1DF63100F09DBB /* JJUtility */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55D00E4C1F1DF63100F09DBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D00E551F1DF63100F09DBB /* JJUtility.m in Sources */,
+				55D00E751F1DFA0700F09DBB /* UIView+JJUtility.m in Sources */,
+				55D00E891F1E15CA00F09DBB /* NSString+JJUtility.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		55D00E571F1DF63100F09DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55D00E581F1DF63100F09DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55D00E5A1F1DF63100F09DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = /usr/include/;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		55D00E5B1F1DF63100F09DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = /usr/include/;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55D00E4B1F1DF63100F09DBB /* Build configuration list for PBXProject "JJUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D00E571F1DF63100F09DBB /* Debug */,
+				55D00E581F1DF63100F09DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55D00E591F1DF63100F09DBB /* Build configuration list for PBXNativeTarget "JJUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D00E5A1F1DF63100F09DBB /* Debug */,
+				55D00E5B1F1DF63100F09DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55D00E481F1DF63100F09DBB /* Project object */;
+}
