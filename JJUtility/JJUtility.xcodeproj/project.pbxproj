@@ -13,6 +13,7 @@
 		55D00E781F1DFA7700F09DBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D00E771F1DFA7700F09DBB /* UIKit.framework */; };
 		55D00E7A1F1DFA9500F09DBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D00E791F1DFA9500F09DBB /* Foundation.framework */; };
 		55D00E891F1E15CA00F09DBB /* NSString+JJUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D00E881F1E15CA00F09DBB /* NSString+JJUtility.m */; };
+		CA57C88C1FA4603C0061E266 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = CA57C88B1FA4603C0061E266 /* NSData+Base64.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,8 @@
 		55D00E871F1E15CA00F09DBB /* NSString+JJUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JJUtility.h"; sourceTree = "<group>"; };
 		55D00E881F1E15CA00F09DBB /* NSString+JJUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JJUtility.m"; sourceTree = "<group>"; };
 		55D00E8A1F1E181100F09DBB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CA57C88A1FA4603C0061E266 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		CA57C88B1FA4603C0061E266 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 				55D00E741F1DFA0700F09DBB /* UIView+JJUtility.m */,
 				55D00E871F1E15CA00F09DBB /* NSString+JJUtility.h */,
 				55D00E881F1E15CA00F09DBB /* NSString+JJUtility.m */,
+				CA57C88A1FA4603C0061E266 /* NSData+Base64.h */,
+				CA57C88B1FA4603C0061E266 /* NSData+Base64.m */,
 			);
 			path = JJUtility;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55D00E551F1DF63100F09DBB /* JJUtility.m in Sources */,
+				CA57C88C1FA4603C0061E266 /* NSData+Base64.m in Sources */,
 				55D00E751F1DFA0700F09DBB /* UIView+JJUtility.m in Sources */,
 				55D00E891F1E15CA00F09DBB /* NSString+JJUtility.m in Sources */,
 			);
@@ -289,6 +295,7 @@
 				55D00E5B1F1DF63100F09DBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

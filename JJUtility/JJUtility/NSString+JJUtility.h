@@ -49,3 +49,42 @@
 - (NSString *)decode;
 
 @end
+
+@interface NSString (Base64)
+/**
+ base64 encode
+
+ @param string string need to encode
+ @return string encoded
+ */
++ (NSString *)stringWithBase64EncodedString:(NSString *)string;
+
+/**
+ base64 encode with wrap width
+
+ @param wrapWidth wrap width
+ @return strnig encoded
+ */
+- (NSString *)base64EncodedStringWithWrapWidth:(NSUInteger)wrapWidth;
+
+/**
+ base64 encdoe
+
+ @return string ecoded
+ */
+- (NSString *)base64EncodedString;
+
+/**
+ base64 decode
+
+ @return string decoded
+ */
+- (NSString *)base64DecodedString;
+
+/**
+ base64 decode from string(self) to data
+
+ @return data decoded from string
+ */
+- (NSData *)base64DecodedData;
+@end
